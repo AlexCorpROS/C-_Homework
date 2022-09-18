@@ -5,7 +5,6 @@
 Console.WriteLine("Введите число : ");
 int num = Convert.ToInt32(Console.ReadLine());
 int i = 1;
-bool not = true;
 
 Console.WriteLine("Чётные числа от 1 до " + num);
  while (i <= num)
@@ -13,11 +12,10 @@ Console.WriteLine("Чётные числа от 1 до " + num);
     if (i % 2 != 1)
     {
         Console.Write(i + " ");
-        not = false;
-    }
+           }
         i++;
 }
-if (not)
+if (num == 0 || num == 1 || num < 0)
 {
     Console.WriteLine("Нет чётных чисел!");
 }
