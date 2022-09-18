@@ -15,7 +15,7 @@ Console.WriteLine("Чётные числа от 1 до " + num);
            }
         i++;
 }
-if (num == 0 || num == 1 || num < 0)
+if (num == 0 | num == 1 | num < 0)
 {
     Console.WriteLine("Нет чётных чисел!");
 }
