@@ -18,3 +18,10 @@ if(number3 > max)
     max = number3;
 }
 Console.WriteLine($"Максимальное из трех чисел = { max }");
+
+/* Решение методом Math
+Console.WriteLine("Введите три числа : ");
+double a = Convert.ToDouble(Console.ReadLine());
+double b = Convert.ToDouble(Console.ReadLine());
+double c = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine(Math.Max(a, Math.Max(b, c))); */
