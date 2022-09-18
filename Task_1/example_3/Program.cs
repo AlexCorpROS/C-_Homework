@@ -3,8 +3,14 @@
 -3 -> нет
 7 -> нет */
 
-Console.WriteLine("Введите три числа : ");
-double a = Convert.ToDouble(Console.ReadLine());
-double b = Convert.ToDouble(Console.ReadLine());
-double c = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine(Math.Max(a, Math.Max(b, c)));
+Console.WriteLine("Введите число : ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if (num % 2 == 0)
+{
+    Console.WriteLine("Число " + num + " является: четным");
+}
+else
+{
+    Console.WriteLine("Число " + num + " является: нечетным");
+}
