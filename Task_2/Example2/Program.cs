@@ -24,3 +24,5 @@ else
     int num = getNumbertothreedigit(number);
     Console.WriteLine(num);    
 }
+
+// Для решения методом Math можно исключить строки 10-13 а строк 25 заменнить на Console.WriteLine(Math.Abs(num));    
