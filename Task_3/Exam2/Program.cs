@@ -1,32 +1,26 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Задача 21 Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
-int getSize(int num)
+int getCoordinateFromUser(string userInformation)
 {
-    string Size = Convert.ToString(num);
-    int size = Size.Length;
-    return size;
-}
-int getObrez(int num,int size)
-{
-    int Newnum = num;
-    int i = 1;
-    double temp = 0;
-    while(i < size )
+    int result = 0;
+    Console.Write($"{userInformation} ");
+    while (!int.TryParse(Console.ReadLine(), out result))
     {
-        Newnum /= 10;
-        temp = Newnun%Math.Pow(10,size -2);
-        Newnum = temp;
-        i++;
-        size-= 2;
+        Console.Write($"Ошибка ввода! Ожидается целое число. {userInformation}: ");
     }
-    return Newnun;
+    return result;
 }
 
-int num = Convert.ToInt32(Console.ReadLine());
-int size = getSize(num);
-double FirstSign =Convert.ToInt32(num/Math.Pow(10,size -1));
-int LastSign = num%10;
-int Newnun1 = getObrez(num, size);
+int userCoordinateX1 = getCoordinateFromUser("X1 = ");
+int userCoordinateY1 = getCoordinateFromUser("Y1 = ");
+int userCoordinateZ1 = getCoordinateFromUser("Z1 = ");
+int userCoordinateX2 = getCoordinateFromUser("X2 = ");
+int userCoordinateY2 = getCoordinateFromUser("Y2 = ");
+int userCoordinateZ2 = getCoordinateFromUser("Z2 = ");
 
+double findRangeBetweenTwoPoints(int coordinateX1, int coordinateY1, int coordinateZ1, int coordinateX2, int coordinateY2, int coordinateZ2 )
+{
+    return Math.Sqrt(Math.Pow(coordinateX2 - coordinateX1, 2) + Math.Pow(coordinateY2 - coordinateY1, 2) + Math.Pow(coordinateZ2 - coordinateZ1, 2));
+}
 
-Console.WriteLine($"{FirstSign} , {LastSign} , {Newnun1} ");
+Console.WriteLine(findRangeBetweenTwoPoints(userCoordinateX1, userCoordinateY1, userCoordinateZ1, userCoordinateX2, userCoordinateY2, userCoordinateZ2 ));

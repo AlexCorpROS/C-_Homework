@@ -135,7 +135,7 @@ Console.WriteLine($"Число {number} не является палиндром
 
 int getNumberTest(string userInformation)
 {
-    int result = 0;
+    int result = 0;        
     while (result == 0)
     {
         Console.Write(userInformation);
@@ -149,14 +149,13 @@ int getNumberTest(string userInformation)
         {
             break;
         }
-    }
-        result = Math.Abs(result);
-    return result;
+    }        
+    return result;  
 }
 
 int getSize(int num)
 {
-    string Size = Convert.ToString(num);
+    string Size = Convert.ToString(Math.Abs(num));
     int size = Size.Length;
     return size;
 }
@@ -164,7 +163,7 @@ int getSize(int num)
 int getPalindromTest(int num , int size)
 {
     int i = 0;
-    int Newnum = num;
+    int Newnum = Math.Abs(num);
     double temp = 0;
     while( i <= size )
     {
@@ -200,4 +199,5 @@ else
     Console.WriteLine($"Число {num} палиндром");
 }
 
+//Console.WriteLine(userInformation);
 
