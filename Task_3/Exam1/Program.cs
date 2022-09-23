@@ -87,5 +87,81 @@ else
 }
  */
 
- // Математическое решение
-           
+ /* Решение методом реверс
+         
+int getNumberTest(string userInformation)
+{
+    int result = 0;
+    while (result == 0)
+    {
+        Console.Write(userInformation);
+        string userLine = Console.ReadLine();
+        int.TryParse(userLine,out result);
+        if(result == 0 && userLine != "0") 
+        {
+            Console.WriteLine($"Введите целое число вы ввели {userLine}");
+        }
+        else
+        {
+            break;
+        }
+    }
+        result = Math.Abs(result);
+    return result;
+}
+
+int reverse_number(int number)
+{
+    int n = 0;
+    while(number > 0)
+    {
+        n = 10*n + number%10;
+        number /= 10;
+    }
+
+ return n;
+}
+int number = getNumberTest("Введите целое число ");
+int n = reverse_number(number);
+if(number == n)
+{
+    Console.WriteLine($"Число {number} является палиндромом");
+}
+else 
+Console.WriteLine($"Число {number} не является палиндромом");
+*/
+
+// Решение математическим методом
+int getNumberTest(string userInformation)
+{
+    int result = 0;
+    while (result == 0)
+    {
+        Console.Write(userInformation);
+        string userLine = Console.ReadLine();
+        int.TryParse(userLine,out result);
+        if(result == 0 && userLine != "0") 
+        {
+            Console.WriteLine($"Введите целое число вы ввели {userLine}");
+        }
+        else
+        {
+            break;
+        }
+    }
+        result = Math.Abs(result);
+    return result;
+}
+
+int getSize(int num)
+{
+    string Size = Convert.ToString(num);
+    int size = Size.Length;
+    return size;
+}
+
+int num = getNumberTest("Введите целое число :");
+int NN = getSize(num);
+
+Console.WriteLine(NN);
+
