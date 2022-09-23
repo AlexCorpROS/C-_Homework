@@ -1,0 +1,15 @@
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\bin\Debug\net6.0\Exam2.exe
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\bin\Debug\net6.0\Exam2.deps.json
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\bin\Debug\net6.0\Exam2.runtimeconfig.json
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\bin\Debug\net6.0\Exam2.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\bin\Debug\net6.0\Exam2.pdb
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\obj\Debug\net6.0\Exam2.csproj.AssemblyReference.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\obj\Debug\net6.0\Exam2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\obj\Debug\net6.0\Exam2.AssemblyInfoInputs.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\obj\Debug\net6.0\Exam2.AssemblyInfo.cs
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\obj\Debug\net6.0\Exam2.csproj.CoreCompileInputs.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\obj\Debug\net6.0\Exam2.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\obj\Debug\net6.0\refint\Exam2.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\obj\Debug\net6.0\Exam2.pdb
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\obj\Debug\net6.0\Exam2.genruntimeconfig.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_3\Exam2\obj\Debug\net6.0\ref\Exam2.dll
