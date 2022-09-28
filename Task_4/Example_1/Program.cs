@@ -2,6 +2,7 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 
+/*
 double getExponentiationNumAToB(double NumberA, double NumberB)
 {
     double result = 0;
@@ -16,6 +17,8 @@ double userNumberB = Convert.ToDouble(Console.ReadLine());
 
 double answer = getExponentiationNumAToB(userNumberA, userNumberB);
 Console.WriteLine($"Число {userNumberA} возведенное в степень {userNumberB} равно {answer}");
+
+*/
 
 /* Решенние с циклом
 
@@ -76,4 +79,33 @@ for(int i = 1; i <= Arr[1] ; i++)
 }
 Console.WriteLine("");
 getPrint($"Число { Arr[0] } возведенное в степень {Arr[1]}  равно {answer} ", ConsoleColor.Cyan);
+
 */
+
+// Решение через условие if
+
+int GetExp (int number, int exp) {
+    int prod = 1;
+    for (int i = 1; i <= exp; i++)
+        prod *= number;
+    return prod;
+}
+
+
+void Input () {
+    Console.Write ("Введите число: ");
+    int a = int.Parse (Console.ReadLine ());
+    Console.Write ("И показатель степени в которую нужно возвести это число: ");
+    int b = int.Parse (Console.ReadLine ());
+
+    
+    if (a == 0 && b < 0) {
+        Console.WriteLine ("Вы ввели не корректное число");
+        Input();
+        return;
+    }
+
+    Console.WriteLine ($"{a}^{b} = {GetExp (a, b)}");
+}
+
+Input();
