@@ -53,6 +53,7 @@ void getPrint(string information, ConsoleColor color)
 
 getPrint("Введите число сумму знаков которого хотите найти : ",ConsoleColor.DarkGreen);
 int userNumber = getTestToZero("");
+//int userNumber = Convert.ToInt32(Console.ReadLine()); без теста на корректность ввода
 getPrint($"Сумма знаков числа  {userNumber} равна {getSumofdigitsinthenumber(userNumber)}",ConsoleColor.DarkBlue);
 
 
