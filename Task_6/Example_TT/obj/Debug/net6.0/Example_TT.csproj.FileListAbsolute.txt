@@ -1,0 +1,15 @@
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\bin\Debug\net6.0\Example_TT.exe
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\bin\Debug\net6.0\Example_TT.deps.json
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\bin\Debug\net6.0\Example_TT.runtimeconfig.json
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\bin\Debug\net6.0\Example_TT.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\bin\Debug\net6.0\Example_TT.pdb
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\obj\Debug\net6.0\Example_TT.csproj.AssemblyReference.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\obj\Debug\net6.0\Example_TT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\obj\Debug\net6.0\Example_TT.AssemblyInfoInputs.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\obj\Debug\net6.0\Example_TT.AssemblyInfo.cs
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\obj\Debug\net6.0\Example_TT.csproj.CoreCompileInputs.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\obj\Debug\net6.0\Example_TT.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\obj\Debug\net6.0\refint\Example_TT.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\obj\Debug\net6.0\Example_TT.pdb
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\obj\Debug\net6.0\Example_TT.genruntimeconfig.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_6\Example_TT\obj\Debug\net6.0\ref\Example_TT.dll
