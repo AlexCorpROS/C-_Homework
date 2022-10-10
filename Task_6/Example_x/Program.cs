@@ -6,15 +6,15 @@ int Num = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Задайте количество элементов множества: ");
 int NumArray = Convert.ToInt32(Console.ReadLine());
 
-void printArray(int[] array) 
+void printArray(int[] array)
 {
     Console.Write("[");
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write(array[i]);
-        if(i < array.Length - 1)
+        if (i < array.Length - 1)
         {
-           Console.Write(", "); 
+            Console.Write(", ");
         }
     }
     Console.WriteLine("]");
@@ -31,32 +31,36 @@ int[] getUserArray(int UserNumber)
     return UserArray;
 }
 
-void sums(int[] arr, int target) {
+void sums(int[] arr, int TestNumber)
+{
     int[] stack = new int[arr.Length];
     int count = 0;
 
-    void getTestSubSet(int i, int target) {                     
-        if (target == 0) {
-            for (int j = 0; j < count; ++j) 
+    void getTestSubSet(int i, int TestNumber)
+    {
+        if (TestNumber == 0)
+        {
+            for (int j = 0; j < count; ++j)
             {
                 Console.Write(stack[j] + " ");
             }
             Console.WriteLine();
             return;
         }
-        if (i < arr.Length) {
+        if (i < arr.Length)
+        {
             stack[count++] = arr[i];
-            getTestSubSet(i + 1, target - arr[i]);
+            getTestSubSet(i + 1, TestNumber - arr[i]);
             --count;
-            getTestSubSet(i + 1, target);
+            getTestSubSet(i + 1, TestNumber);
         }
     }
 
-    getTestSubSet(0, target);
+    getTestSubSet(0, TestNumber);
 }
 
 int[] TestArray = getUserArray(NumArray);
 Console.WriteLine("Задано следующее множество ");
 printArray(TestArray);
 Console.WriteLine("Возможные подмножества, суммы которых равны контрольному числу : ");
-sums(TestArray , Num);
+sums(TestArray, Num);
