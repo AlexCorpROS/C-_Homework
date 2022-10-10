@@ -66,10 +66,6 @@ int getTestPositionElement(int[,] userArray, int userNumber)
         }
     }
     return userNumber;
-
-    /*int test = userArray.Length;
-    Console.WriteLine(test);
-    return test;*/
 }
 
 Console.WriteLine("Введите искомый элемент массив: ");

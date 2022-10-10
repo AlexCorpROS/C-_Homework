@@ -78,9 +78,8 @@ double[] getAverageStringArray(int[,] userArray, int userValue)
 
 Console.WriteLine("Сколько знаков после запятой распечатывать : ");
 int userValue = Convert.ToInt32(Console.ReadLine());
-
 int[,] userArray = getRandomArray(7, 3, 1, 100);
 print2DArray(userArray);
 double[]  averString = getAverageStringArray(userArray, userValue);
-Console.WriteLine("Сколько знаков после запятой распечатывать : ");
+Console.WriteLine("Полученные значения : ");
 printArray(averString);
