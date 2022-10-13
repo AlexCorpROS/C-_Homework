@@ -1,0 +1,15 @@
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\bin\Debug\net6.0\Example62.exe
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\bin\Debug\net6.0\Example62.deps.json
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\bin\Debug\net6.0\Example62.runtimeconfig.json
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\bin\Debug\net6.0\Example62.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\bin\Debug\net6.0\Example62.pdb
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\obj\Debug\net6.0\Example62.csproj.AssemblyReference.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\obj\Debug\net6.0\Example62.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\obj\Debug\net6.0\Example62.AssemblyInfoInputs.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\obj\Debug\net6.0\Example62.AssemblyInfo.cs
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\obj\Debug\net6.0\Example62.csproj.CoreCompileInputs.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\obj\Debug\net6.0\Example62.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\obj\Debug\net6.0\refint\Example62.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\obj\Debug\net6.0\Example62.pdb
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\obj\Debug\net6.0\Example62.genruntimeconfig.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_8\Example62\obj\Debug\net6.0\ref\Example62.dll
