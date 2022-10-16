@@ -20,7 +20,7 @@ void printColorData(string data)
     Console.ResetColor();
 }
 
-void showArray(int[,] inputArray)
+void show2DArray(int[,] inputArray)
 {
     printColorData($" \t");
     for (int i = 0; i < inputArray.GetLength(1); i++)
@@ -78,10 +78,9 @@ int[,] getSortDescendingOrder(int[,] inputArray)
 
 int[,] generatedArray = GenerateArray(5, 4, 100);
 Console.WriteLine("Сгенерированный двумерный массив имеет вид : ");
-showArray(generatedArray);
+show2DArray(generatedArray);
 int[,] sortedArray = getSortDescendingOrder(generatedArray);
 Console.WriteLine("Отсортированный массив имеет вид : ");
-showArray(sortedArray);
-//int[] arra = new int[] {1,2,4,5,2,6,87,3};
-//printArray(getSortArray(arra));
+show2DArray(sortedArray);
+
 
