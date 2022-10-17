@@ -1,0 +1,15 @@
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\bin\Debug\net6.0\Homework_dog.exe
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\bin\Debug\net6.0\Homework_dog.deps.json
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\bin\Debug\net6.0\Homework_dog.runtimeconfig.json
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\bin\Debug\net6.0\Homework_dog.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\bin\Debug\net6.0\Homework_dog.pdb
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\obj\Debug\net6.0\Homework_dog.csproj.AssemblyReference.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\obj\Debug\net6.0\Homework_dog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\obj\Debug\net6.0\Homework_dog.AssemblyInfoInputs.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\obj\Debug\net6.0\Homework_dog.AssemblyInfo.cs
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\obj\Debug\net6.0\Homework_dog.csproj.CoreCompileInputs.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\obj\Debug\net6.0\Homework_dog.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\obj\Debug\net6.0\refint\Homework_dog.dll
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\obj\Debug\net6.0\Homework_dog.pdb
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\obj\Debug\net6.0\Homework_dog.genruntimeconfig.cache
+C:\Users\Лина\Documents\GB\C#_Homework\Task_1\Homework_dog\obj\Debug\net6.0\ref\Homework_dog.dll
