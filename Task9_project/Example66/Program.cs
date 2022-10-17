@@ -14,6 +14,12 @@ int getSumOfRange(int M, int N)
     int Sum = M;
     if (M == N)
         return 0;
+    if (M > N)
+    {
+        M++;
+        Sum = N + getSumOfRange(N, M);        
+        return Sum;
+    }
     else
     {
         M++;
